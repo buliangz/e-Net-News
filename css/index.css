@@ -15,6 +15,9 @@ html,body{
 .bdr1{
     border-radius: 15px;
 }
+.bdr2{
+    border-radius: 20px 50px 50px 20px;
+}
 .bgSize{
     /* margin-top:10px ; */
     margin: 20px 0 20px 0;
