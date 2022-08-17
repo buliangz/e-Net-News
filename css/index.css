@@ -24,6 +24,7 @@ html,body{
 /* 头部栏 */
 .maTop{
     height: 75px;
+    
 }
 ._syt{
     width: 32px;
@@ -62,7 +63,7 @@ html,body{
 }
 ._ree{
     width: 220px;
-    height: 32px;
+    height: 28px;
     float: left;
     border: 1px solid rgb(255, 255, 255);
 }
@@ -90,7 +91,7 @@ html,body{
 .sty_no{
     width: 600px;
     height: 800px;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-left: 100px;
     position: relative;
     background-color: rgba(242, 178, 99, 0.5);
@@ -120,20 +121,25 @@ html,body{
     height: 161px;
     margin: auto;
     margin-top: 10px;
+    /* font-family: "STLiti"; */
+    font-family: "fzshuti";
+    line-height: 120px;
+    font-size: 1.4em;
+    color: red;
     background: url(../images/江山如此多娇.jpg) 100% 100% no-repeat;
 }
 .cetMa{
     width: 242px;
-    height: 403px;
+    height: 398px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     background-color: rgb(252, 252, 252, 0.3);
 }
 .botMa{
     width: 242px;
-    height: 161px;
+    height: 160px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
     background-color: rgb(252, 252, 252, 0.3);
 }
 
