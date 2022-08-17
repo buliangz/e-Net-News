@@ -87,7 +87,7 @@ html,body{
 .sty_no{
     width: 600px;
     height: 800px;
-    margin-top: 50px;
+/*     margin-top: 50px; */
     margin-left: 100px;
     position: relative;
     background-color: rgba(242, 178, 99, 0.5);
