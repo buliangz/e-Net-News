@@ -1,0 +1,44 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* *{
+    border: 1px solid black;
+} */
+.Bg{
+    width: 50%;
+    height: 750px;
+    /* margin-top: 20px; */
+    /* margin: 20px 0 20px 0; */
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+.Tx{
+    height: 30px;
+    margin-top: 10px;
+    font-size: small;
+    background-color: rgba(225, 223, 223, 0.391);
+    border: 1px solid;
+}
+.Tx1{
+    background-color: rgba(225, 223, 223, 0.391);
+    border: 1px solid;
+}
+.tx{
+    color: rgba(147, 140, 140, 0.879);
+    font-size: small;
+
+}
+.bt{
+    width: 80px;
+    height: 40px;
+    font-size: 1em;
+    float: right;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}

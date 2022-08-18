@@ -81,13 +81,8 @@ html,body{
 
 /* 更多 */
 ._mo{
-    /* text-decoration: none; */
-    
-    /* z-index: 1; */
     float: right;
     margin-right: 90px;
-    /* position: relative; */
-    /* z-index: 1; */
     background: url(../images/menu.png) 100% 100% no-repeat;
 }
 .dropdown {
@@ -101,7 +96,7 @@ html,body{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgb(252, 252, 252, 0.3);
+    background-color: rgba(252, 252, 252, 0.522);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     margin-left: -50px;
@@ -149,7 +144,7 @@ html,body{
     height: 400px;
     position: absolute;
     left: 200px;
-    top: 200px;
+    top: 190px;
 }
 .fo_img img{
     width: 600px;
@@ -179,9 +174,8 @@ html,body{
     width: 242px;
     height: 161px;
     margin: auto;
-    margin-top: 10px;
     font-family: "fzshuti";
-    margin-top: 20px;
+    margin-top: 12px;
     line-height: 1.2em;
     font-size: 1.2em;
     background: url(../images/江山如此多娇.jpg) 100% 100% no-repeat;
@@ -190,12 +184,12 @@ html,body{
     width: 242px;
     height: 398px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 30px;
     background-color: rgb(252, 252, 252, 0.3);
 }
 .botMa{
     width: 242px;
-    height: 160px;
+    height: 170px;
     margin: auto;
     margin-top: 40px;
     background-color: rgb(252, 252, 252, 0.3);

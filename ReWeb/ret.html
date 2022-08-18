@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/ret.css">
+    <title>意见反馈</title>
+</head>
+<body>
+    <form action="" method="post">    
+        <div class="Bg">
+            <p><b>您的问题或建议</b></p>
+            <br>
+            <textarea name="原因" value="其他原因" cols="101" rows="10" placeholder=" 输入个人意见反馈，字数200字以内" maxlength="200" class="Tx1"></textarea>
+            <br>
+            <br>
+            <p><b>您的联系方式</b></p>            
+            <input type="text" size="111" placeholder="输入手机号" class="Tx">
+            <input type="text" size="111" placeholder="输入邮箱" class="Tx">
+            <input type="text" size="111" placeholder="输入QQ" class="Tx">
+            <p class="tx">请留下您的联系方式，以便我们反馈处理结果</p>
+            <br>            
+            <input type="button" value="提交" onclick="fun()" class="bt">   
+            <input type="button" value="返回" onclick="location.href='../index.html'" class="bt" >  
+        </div>
+    </form>
+</body>
+<script type="text/javascript">
+    function fun(){        
+        alert("即将返回首页，非常感谢您的反馈");
+        setTimeout(location.href='../index.html',0);
+    }    
+</script>
+</html>
