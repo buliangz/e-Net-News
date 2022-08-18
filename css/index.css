@@ -4,7 +4,7 @@ html,body{
     width: 1500px;
     height: 1000px;
     margin: auto;
-   
+    /* position: absolute; */
 }
 /* *{
     border: 1px solid black;
@@ -38,12 +38,14 @@ html,body{
     margin-top: 27px;    
     float: left;
 }
+/* 主页 */
 ._home{
     width: 32px;
     height: 32px;
     margin-left: 100px;
     background: url(../images/home.png) 100% 100% no-repeat;
 }
+/* 链接 */
 ._Lj{
     float: left;
     text-align: center;
@@ -60,6 +62,7 @@ html,body{
     height: 32px;
     margin-left: 300px;
 }
+/* 搜索 */
 ._so{
     width: 260px;
     margin-left: 250px;
@@ -68,17 +71,58 @@ html,body{
     width: 220px;
     height: 28px;
     float: left;
-    border: 1px solid rgb(255, 255, 255);
+    border: white;
+    /* border: 1px solid rgb(255, 255, 255); */
 }
 ._le{
     float: right;
     background: url(../images/ss.png) 100% 100% no-repeat;
 }
+
+/* 更多 */
 ._mo{
+    /* text-decoration: none; */
+    
+    /* z-index: 1; */
     float: right;
     margin-right: 90px;
+    /* position: relative; */
+    /* z-index: 1; */
     background: url(../images/menu.png) 100% 100% no-repeat;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 27px;
+    float: left;
+    margin-left: 336px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(252, 252, 252, 0.3);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: -50px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f196}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+} */
 /* 内容栏 */
 .mai{
     height: 900px;
@@ -111,24 +155,35 @@ html,body{
     width: 600px;
     height: 400px;
 }
-
+/* 江山如此多娇 */
 .reMa{
     width: 390px;
     height: 900px;
     float: left;
-    text-align: center;
-   
+    text-align: center;   
+}
+
+.big_:hover{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.big_{
+    /* color: red; */
+    text-decoration: none;
+}
+.big_1{
+    color: red;
 }
 .reTop{
+    
     width: 242px;
     height: 161px;
     margin: auto;
     margin-top: 10px;
-    /* font-family: "STLiti"; */
     font-family: "fzshuti";
-    line-height: 120px;
-    font-size: 1.4em;
-    color: red;
+    margin-top: 20px;
+    line-height: 1.2em;
+    font-size: 1.2em;
     background: url(../images/江山如此多娇.jpg) 100% 100% no-repeat;
 }
 .cetMa{
@@ -144,8 +199,4 @@ html,body{
     margin: auto;
     margin-top: 40px;
     background-color: rgb(252, 252, 252, 0.3);
-}
-
-.ptxt{
-    line-height: 45px;
 }
