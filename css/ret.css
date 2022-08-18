@@ -5,6 +5,9 @@ body{
 /* *{
     border: 1px solid black;
 } */
+.rb{
+    border-radius: 5px;
+}
 .Bg{
     width: 750px;
     height: 750px;
@@ -18,10 +21,12 @@ body{
     font-size: small;
     background-color: rgba(225, 223, 223, 0.391);
     border: 1px solid;
+    width: 700px;
 }
 .Tx1{
     background-color: rgba(225, 223, 223, 0.391);
     border: 1px solid;
+    width: 700px;
 }
 .tx{
     color: rgba(147, 140, 140, 0.879);
@@ -35,6 +40,8 @@ body{
     float: right;
     margin-right: 10px;
     margin-left: 20px;
+    border: 1px solid rgba(97, 97, 97, 0.926);
+    border-radius: 5px;
 }
 a{
     color: #000;
