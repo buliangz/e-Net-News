@@ -29,8 +29,6 @@
                 </a>                
             </div>
             <!-- 更多 -->
-
-
             <div class="dropdown">
                 <div class="_syt _mo" title="更多"></div>
                 <br><br>
@@ -49,7 +47,13 @@
                 <!-- 透明色块 -->
                 <div class="sty_no bdr2">
                     <!-- 轮播区块 -->
-                    <div class="fo_img bdr" > <img src="./images/homeb.jpg" alt="" class="bdr"></div>
+                    <div class="fo_img bdr" > 
+                        <img src="./images/江山如此多娇.jpg" alt="" class="bdr n1 f">
+                        <img src="./images/homeb.jpg" alt="" class="bdr n2 f">
+                        <img src="./images/log/home.png" alt="" class="bdr n3 f">
+                        <img src="./images/log/lj.png" alt="" class="bdr n4 f">
+                        <img src="./images/log/menu.png" alt="" class="bdr n5 f">
+                    </div>
                 </div>
                 
             </div>
@@ -73,8 +77,6 @@
                     <p><a href="" class="big_">台湾回归问题</a></p>
                     <p><a href="" class="big_">台湾回归问题</a></p>
                     <p><a href="" class="big_">台湾回归问题</a></p>
-                    <p><a href="" class="big_">台湾回归问题</a></p>
-                    <p><a href="" class="big_">台湾回归问题</a></p>
                 </div>
                 <!-- 下半 -->
                 <div class="botMa bdr">  
@@ -86,7 +88,21 @@
             </div>
         </div>
     </div>
-    
-    <!-- <div class="_re"></div> -->
+    <script type="text/javascript">
+        var index=0;
+        function for_img(){
+            index++;
+            var fimg=document.getElementsByClassName("f");
+            if(index>=fimg.length){
+                index=0;
+            }
+            for(var i = 0;i<fimg.length;i++){
+                fimg[i].style.display='none';
+            }
+            fimg[index].style.display='block';
+            
+        }
+        setInterval(for_img,3000);
+    </script>
 </body>
 </html>

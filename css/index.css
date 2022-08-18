@@ -43,13 +43,13 @@ html,body{
     width: 32px;
     height: 32px;
     margin-left: 100px;
-    background: url(../images/home.png) 100% 100% no-repeat;
+    background: url(../images/log/home.png) 100% 100% no-repeat;
 }
 /* 链接 */
 ._Lj{
     float: left;
     text-align: center;
-    background: url(../images/lj.png) 100% 100% no-repeat;
+    background: url(../images/log/lj.png) 100% 100% no-repeat;
 }
 ._txtLj{
     height: 32px;
@@ -72,18 +72,17 @@ html,body{
     height: 28px;
     float: left;
     border: white;
-    /* border: 1px solid rgb(255, 255, 255); */
 }
 ._le{
     float: right;
-    background: url(../images/ss.png) 100% 100% no-repeat;
+    background: url(../images/log/ss.png) 100% 100% no-repeat;
 }
 
 /* 更多 */
 ._mo{
     float: right;
     margin-right: 90px;
-    background: url(../images/menu.png) 100% 100% no-repeat;
+    background: url(../images/log/menu.png) 100% 100% no-repeat;
 }
 .dropdown {
     position: relative;
@@ -150,6 +149,24 @@ html,body{
     width: 600px;
     height: 400px;
 }
+.n1{
+    display: block;
+}
+.n2{
+    display: none;
+}
+.n3{
+    display: none;
+}
+.n4{
+    display: none;
+}
+.n5{
+    display: none;
+}
+
+
+
 /* 江山如此多娇 */
 .reMa{
     width: 390px;
@@ -186,6 +203,9 @@ html,body{
     margin: auto;
     margin-top: 30px;
     background-color: rgb(252, 252, 252, 0.3);
+}
+.cetMa p{
+    margin-top: 25px;
 }
 .botMa{
     width: 242px;
