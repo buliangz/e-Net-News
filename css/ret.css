@@ -11,7 +11,7 @@ body{
 .Bg{
     width: 750px;
     height: 750px;
-    padding: 20px;
+    /* padding: 20px; */
     margin: auto;
     background-color: rgb(255, 255, 255);
 }
@@ -21,12 +21,12 @@ body{
     font-size: small;
     background-color: rgba(225, 223, 223, 0.391);
     border: 1px solid;
-    width: 706px;
+    width: 735px;
 }
 .Tx1{
     background-color: rgba(225, 223, 223, 0.391);
     border: 1px solid;
-    width: 706px;
+    width: 735px;
 }
 .tx{
     color: rgba(147, 140, 140, 0.879);
