@@ -114,7 +114,7 @@ html,body{
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f196}
+.dropdown-content a:hover {background-color: #f1f1f196;border-radius: 20px;}
 
 .dropdown:hover .dropdown-content {
     display: block;
