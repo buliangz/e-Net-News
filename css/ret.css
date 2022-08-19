@@ -2,9 +2,9 @@ body{
     padding: 0px;
     margin: 0px;
 }
-*{
+/* *{
     border: 1px solid black;
-}
+} */
 .rb{
     border-radius: 5px;
 }

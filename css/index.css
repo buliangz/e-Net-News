@@ -1,10 +1,14 @@
 html,body{
     border: 0px;
-    margin: 0px;
+    margin: 0px;   
+    margin: auto; 
     width: 1500px;
-    height: 1000px;
-    margin: auto;
     /* position: absolute; */
+}
+.HtB{
+    
+    height: 1000px;
+   
 }
 /* *{
     border: 1px solid black;
@@ -40,6 +44,7 @@ a{
 ._sty1{
     margin-top: 27px;    
     float: left;
+    
 }
 /* 主页 */
 ._home{
@@ -69,15 +74,19 @@ a{
 ._so{
     width: 260px;
     margin-left: 250px;
+    
 }
 ._ree{
     width: 220px;
     height: 28px;
     float: left;
     border: white;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.2);  
 }
 ._le{
     float: right;
+    filter: drop-shadow(0px 2px 20px #a0b7ca);
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   */
     background: url(../images/log/ss.png) 100% 100% no-repeat;
 }
 
@@ -85,6 +94,7 @@ a{
 ._mo{
     float: right;
     margin-right: 90px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   */
     background: url(../images/log/menu.png) 100% 100% no-repeat;
 }
 .dropdown {
@@ -138,6 +148,7 @@ a{
     margin-top: 12px;
     margin-left: 100px;
     position: relative;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: rgba(242, 178, 99, 0.5);
 }
 /* 轮播 */
@@ -147,6 +158,7 @@ a{
     position: absolute;
     left: 200px;
     top: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .fo_img img{
     width: 600px;
@@ -175,7 +187,8 @@ a{
     width: 390px;
     height: 900px;
     float: left;
-    text-align: center;   
+    text-align: center; 
+    
 }
 
 .big_:hover{
@@ -185,12 +198,13 @@ a{
 .big_{
     /* color: red; */
     text-decoration: none;
+    
 }
 .big_1{
     color: red;
 }
 .reTop{
-    
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
     width: 242px;
     height: 161px;
     margin: auto;
@@ -201,6 +215,7 @@ a{
     background: url(../images/江山如此多娇.jpg) 100% 100% no-repeat;
 }
 .cetMa{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
     width: 242px;
     height: 398px;
     margin: auto;
@@ -218,6 +233,7 @@ a{
     padding-bottom: 10px;
 }
 .botMa{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
     width: 242px;
     height: 170px;
     margin: auto;
@@ -227,5 +243,6 @@ a{
 
 .mom{
     font-size: 10px;
+    
 }
 
