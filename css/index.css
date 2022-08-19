@@ -18,6 +18,9 @@ html,body{
 .bdr2{
     border-radius: 20px 50px 50px 20px;
 }
+a{
+    text-decoration: none;
+}
 .bgSize{
     /* margin-top:10px ; */
     margin: 20px 0 20px 0;
@@ -177,7 +180,7 @@ html,body{
 
 .big_:hover{
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .big_{
     /* color: red; */
@@ -205,7 +208,14 @@ html,body{
     background-color: rgb(252, 252, 252, 0.3);
 }
 .cetMa p{
-    margin-top: 25px;
+    /* margin-top: 25px; */
+    /* width: 150px; */
+    /* height: 40px; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    
+    /* margin: auto; */
+    padding-bottom: 10px;
 }
 .botMa{
     width: 242px;
@@ -214,3 +224,8 @@ html,body{
     margin-top: 40px;
     background-color: rgb(252, 252, 252, 0.3);
 }
+
+.mom{
+    font-size: 10px;
+}
+
