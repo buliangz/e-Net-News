@@ -263,7 +263,7 @@ a{
     height: 1100px;
 }
 .gy{
-    width: 80px;
+    width: 85px;
     height: 180px;
     margin-left: 100px;
     font-size: 32px;
@@ -272,6 +272,8 @@ a{
     background-color: #f24713;
     color: rgb(255, 255, 255);
     font-weight: 1000;
+    font-family:"SimSun";
+    letter-spacing: 8px;
 }
 .bbg{
     width: 1500px;
@@ -310,15 +312,20 @@ a{
 }
 
 .txtdjietxt{
-    height: 50px;
+    /* margin: 0px; */
+    height:54px;
     font-size: 40px;
     /* line-height: 50px; */
     font-family:"SimSun";
     letter-spacing: 3px;
 }
 .txtdjietxt01{
+    /* margin-top: 10px; */
+    /* padding-top: 70px; */
+    height: 60px;
    font-size: 21px;
    font-family:"SimSun";
+   line-height: 1.5em;
 }
 .wmdxx{
     width: 550px;
