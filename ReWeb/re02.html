@@ -5,22 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/xc.css">
+    <link rel="icon" type="image/x-icon" href="../images/log/e.png">
     <link rel="stylesheet" href="../css/index.css">
     <title>广西深入开展“喜迎二十大、永远跟党走、奋进新征程”主题教育实践 </title>
 </head>
 <body>
     <div class="xctit1 xctit2" id="bigsz">
-        <div class="bgSize bdr1 bda">
+        <div class="bgSize bdr1 bda" id="top0">
             <div class="maTop">
                 <!-- home -->
                 <a href="../index.html"><div class="_syt _sty1 _home" title="首页"></div></a> 
                 <!-- 链接 -->
-                <a href="">
+                <a href="https://www.bilibili.com/video/BV1D3411g76j/?vd_source=3182985b1ee2d979afa55f34ef67c52e" target="_blank">
                     <div class="_syt _sty1 _txt" title="二十大">
                         <div class="_syt _Lj"></div>
-                        <a href="https://www.bilibili.com/video/BV1D3411g76j/?vd_source=3182985b1ee2d979afa55f34ef67c52e" target="_blank">
-                            <div class="_txtLj">二十大</div>
-                        </a>
+                        <div class="_txtLj">献礼二十大</div>
                     </div>
                 </a>
               
@@ -41,10 +40,10 @@
                     <div class="_syt _mo" title="更多"></div>
                     <br><br>
                     <div class="dropdown-content bdr">
-                        <a href=""> 1 站点介绍</a>
+                        <a href="../ReWeb/jies.html"> 1 站点介绍</a>
                         <a href="../ReWeb/guany.html"> 2 关于我们</a>
                         <a href="mailto:buliangz@yeah.net">3 向我投稿</a>
-                        <a href="ReWeb/ret.html"> 4 意见反馈</a>
+                        <a href="../ReWeb/ret.html"> 4 意见反馈</a>
                     </div>
                   </div>
             </div>
@@ -72,6 +71,18 @@
                     <div class="txtbotbd"></div>
                     <div class="txttim">时间：2022-04-12 &nbsp;&nbsp;&nbsp;主编辑：彭远贺、许荩文</div>
                 </div>
+                <a href="#top0"><div class="fhtop" id="idtopid"><div class="gototop"></div>返 回 顶 部</div></a> 
+                <script>
+                    window.onscroll = function () {
+                        var currentHeight = window.pageYOffset ;                            
+                        console.log(currentHeight, "currentHeight");
+                        if (currentHeight > 300) {
+                            document.getElementById('idtopid').style.display = 'block'
+                        } else {
+                            document.getElementById('idtopid').style.display = 'none'
+                        }
+                    }
+                </script>
                 <div class="txtmar">
                     <div class="Asize">
                         <input type="button" value="32px A+" class="fonsiz" onclick="funs1()">
@@ -100,18 +111,18 @@
 <script>
     function funs1(){
         document.getElementById('jssize').style.fontSize='32px'; 
-        document.getElementById('bigsz').style.height='2000px'; 
-        document.getElementById('jssize').style.height='2000px'; 
+        document.getElementById('bigsz').style.height='2400px'; 
+        document.getElementById('jssize').style.height='2400px'; 
     }
     function funs2(){
         document.getElementById('jssize').style.fontSize='16px'; 
-        document.getElementById('bigsz').style.height='900px'; 
-        document.getElementById('jssize').style.height='900px';
+        document.getElementById('bigsz').style.height='1100px'; 
+        document.getElementById('jssize').style.height='1100px';
     }
     function funs3(){
         document.getElementById('jssize').style.fontSize='12px'; 
-        document.getElementById('bigsz').style.height='500px'; 
-        document.getElementById('jssize').style.height='500px'; 
+        document.getElementById('bigsz').style.height='900px'; 
+        document.getElementById('jssize').style.height='900px'; 
     }
 </script>  
 </html>
