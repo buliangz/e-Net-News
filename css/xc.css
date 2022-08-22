@@ -26,7 +26,9 @@
     height: 6800px;
    
 }
-
+.xctit7{
+    height: 1000px;
+}
 .bda{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -229,4 +231,41 @@ a{
     height: 770px;
     margin: auto;
     background: url(../images/arti/wyxwdt.gif) 100% 100% no-repeat;
+}
+
+
+.max-size{
+    margin-top: 20px;
+    height: 1000px;
+}
+.gy{
+    width: 80px;
+    height: 180px;
+    margin-left: 100px;
+    font-size: 28px;
+    padding-left: 20px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #f24713;
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+}
+.bbg{
+    width: 1500px;
+    height: 900px;
+    background: url(../images/pjt.jpg);
+    background-size: 1500px 900px;
+}
+.col{
+    width: 2px;
+    height: 400px;
+    margin-top: 300px;
+    float: right;
+    background-color: #f24713;
+    /* border: #f24713 1px solid; */
+}
+.txtid{
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-color: antiquewhite;
 }

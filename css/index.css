@@ -80,6 +80,11 @@ a{
     background: url(../images/homeb.jpg) no-repeat;
     background-size: 100% 100%;
 }
+.matopbg{
+    background: url(../images/homeb.jpg) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px 20px 0px 0px;
+}
 /* 头部栏 */
 .maTop{
     height: 75px;

@@ -33,12 +33,16 @@ body{
     font-size: small;
 
 }
+.btcet{
+    width: 185px;
+    margin: auto;
+}
 .bt{
     width: 80px;
     height: 40px;
     font-size: 1em;
-    float: right;
-    /* margin: auto; */
+    /* float: right; */
+    margin: auto;
     margin-right: 10px;
     /* margin-left: 10px; */
     border: 1px solid rgba(97, 97, 97, 0.926);
