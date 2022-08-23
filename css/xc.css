@@ -263,10 +263,11 @@ a{
     height: 1100px;
 }
 .gy{
-    width: 85px;
+    width: 98px;
     height: 180px;
     margin-left: 100px;
-    font-size: 32px;
+    font-size: 40px;
+    text-align: center;
     padding-left: 10px;
     border-radius: 0px 0px 20px 20px;
     background-color: #f24713;
@@ -288,14 +289,11 @@ a{
     float: right;
     margin-right: 100px;
     background-color: #f24713;
-    /* border: #f24713 1px solid; */
 }
 .txtidjie{
     width: 440px;
     height: 150px;
-    /* margin: auto; */
     margin-left: 470px;
-    /* background-color: antiquewhite; */
 }
 .txtdjietxtre{
     float: left;
@@ -312,20 +310,16 @@ a{
 }
 
 .txtdjietxt{
-    /* margin: 0px; */
     height:54px;
     font-size: 40px;
-    /* line-height: 50px; */
     font-family:"SimSun";
     letter-spacing: 3px;
 }
 .txtdjietxt01{
-    /* margin-top: 10px; */
-    /* padding-top: 70px; */
     height: 60px;
-   font-size: 21px;
-   font-family:"SimSun";
-   line-height: 1.5em;
+    font-size: 21px;
+    font-family:"SimSun";
+    line-height: 1.5em;
 }
 .wmdxx{
     width: 550px;
@@ -339,7 +333,63 @@ a{
     font-size: 24px;
 }
 .topcet{
-    /* margin-top: 2px; */
-    /* height: auto; */
     padding-top: 14px;
+}
+
+.xctit10{
+    width: 1500px;
+    height: 1020px;
+    background: url(../images/nmap.jpg) no-repeat;
+    background-size: 1500px 1000px;
+}
+.huabubg{
+    width: 400px;
+    height: 800px;
+    position: relative;
+    left: 1010px;
+    top: 40px;
+}
+
+.sangang{
+    width: 30px;
+    height: 30px;
+    float: left;
+    background-color: #f24713;
+}
+.jd_tilt{
+    width: 400px;
+    margin: auto;
+    font-size: 64px;
+    font-family: 'SimSun';
+    color: white;
+    line-height: 1.4em;
+}
+.jd_tilt_en{
+    width: 400px;
+    height: 40px;
+    margin: auto;
+    font-size: 24px;
+    color: white;
+    font-family: 'SimSun';
+}
+.img_sty{
+    width:400px;
+    height: 250px;
+}
+.jd_txt_sty{
+    color:white;
+    text-indent: 2em;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-family: 'SimSun';
+}
+.left_jd_en{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 800px;
+    font-family: 'SimSun';
+    font-size: 38px;
+    left: 110px;
+    color:white;
 }
