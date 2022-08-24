@@ -252,6 +252,7 @@ a{
     margin-top: 20px;
     height: 1100px;
 }
+
 .gy{
     width: 98px;
     height: 180px;
@@ -451,18 +452,21 @@ a{
 }
 /*  */
 
-.gps_{    
-    display: inline-block;
-    
+.pos{
+    width: 1000px;
+    height: 700px;
+    /* background-color: #ccb1a885; */
+    position: absolute;
 }
 .gps_0{
+
     background: url(../images/log/NGPS.png);
     width: 32px;
     height: 32px;
 }
 .gps_43{
-    position: absolute;
-    top: 500px;
-    left: 580px;
+    position: relative;
+    top: 405px;
+    left: 570px;
     
 }
