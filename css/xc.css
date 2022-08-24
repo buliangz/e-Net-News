@@ -33,13 +33,7 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-/* .xctit1{
-    width: 1200px;
-    margin: auto;
-} */
-/* *{
-    border: 1px solid black;
-} */
+
 .dzl a{
     font-size: 10px;
     color: rgb(71, 70, 70);
@@ -321,6 +315,9 @@ a{
     font-family:"SimSun";
     line-height: 1.5em;
 }
+.colz{
+    color: #f24311;
+}
 .wmdxx{
     width: 550px;
     margin-left: 470px;
@@ -334,6 +331,7 @@ a{
 }
 .topcet{
     padding-top: 14px;
+    
 }
 
 .xctit10{
@@ -390,6 +388,93 @@ a{
     top: 800px;
     font-family: 'SimSun';
     font-size: 38px;
-    left: 110px;
+    left: 140px;
     color:white;
+}
+.colbak{
+    width: 20px;
+    height: 45px;
+    background-color: white;
+    /* float: left; */
+    position: absolute;
+    top: 808px;
+    left: 105px;
+}
+
+/*  */
+.dddddddddd{
+    position: fixed;
+    left:55%;
+    bottom: 3%;
+    z-index: 1;
+    /* top: 800px; */
+}
+.mode0{
+    /* top: 800px; */
+    /* text-align: center;
+    line-height: 50px; */
+    border-radius: 25px;
+    background-color: rgba(252, 252, 252, 0.73);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    /* background: url(../images/log/menu.png)  no-repeat; */
+    width: 50px;
+    height: 50px;
+}
+.mode0 img{
+    margin-top: 6px;
+    margin-left: 6px;
+    width: 40px;
+    height: 40px;
+}
+.mode1 {
+    
+    position: relative;
+    display: inline-block;
+}
+
+.mode1_ {
+    width: 215px;
+    height: 170px;
+    /* display: none; */
+    position: absolute;
+    background-color: rgba(252, 252, 252, 0.522);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: -75px;
+    z-index: 1;
+    top: -175px;
+}
+.mode2_{
+    width: 80px;
+    line-height: 40px;
+    height: 40px;
+    margin-left: 20px;
+    float: left;
+}
+.mode2_:hover{
+    cursor: pointer;
+}
+
+
+.mode1:hover .mode1_ {
+    display: block;
+    /* display: inline-block; */
+}
+/*  */
+
+.gps_{    
+    display: inline-block;
+    
+}
+.gps_0{
+    background: url(../images/log/NGPS.png);
+    width: 32px;
+    height: 32px;
+    /* display: none; */
+}
+.gps_43{
+    position: absolute;
+    top: 500px;
+    left: 580px;
+    
 }
