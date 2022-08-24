@@ -182,9 +182,7 @@ a{
     display: block;
 }
 
-/* .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-} */
+
 /* 内容栏 */
 .mai{
     height: 900px;
@@ -236,7 +234,7 @@ a{
 }
 
 
-
+/* 左区 */
 /* 江山如此多娇 */
 .reMa{
     width: 390px;
@@ -251,13 +249,12 @@ a{
     font-size: 1.1em;
 }
 .big_{
-    /* color: red; */
     text-decoration: none;
-    
 }
 .big_1{
     color: red;
 }
+/* 列表 */
 .reTop{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);  
     width: 242px;
@@ -278,13 +275,6 @@ a{
     background-color: rgb(252, 252, 252, 0.3);
 }
 .cetMa p{
-    /* margin-top: 25px; */
-    /* width: 150px; */
-    /* height: 40px; */
-    /* overflow: hidden; */
-    /* text-overflow: ellipsis; */
-    
-    /* margin: auto; */
     padding-bottom: 10px;
 }
 .botMa{

@@ -1,3 +1,4 @@
+/* 所有页面大小 */
 .xctit{
     height: 3500px;
 }
@@ -5,7 +6,6 @@
 .xctit1{
     width: 1500px;
     position: relative;
-    /* position: absolute; */
 }
 .xctit2{
     height: 1300px;
@@ -17,7 +17,6 @@
     height: 10700px;
    
 }
-
 .xctit5{
     height: 5800px;
    
@@ -29,11 +28,12 @@
 .xctit7{
     height: 1000px;
 }
+/* 阴影效果 */
 .bda{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-
+/* 链接样式 */
 .dzl a{
     font-size: 10px;
     color: rgb(71, 70, 70);
@@ -43,6 +43,7 @@ a{
     color: #000;
     
 }
+/* re01-re06 style*/
 .xch2bt{
     border-top: 1px solid;
     border-color:  #f24713;
@@ -80,7 +81,6 @@ a{
     width: 350px;
     float: right;
     font-size: 16px;
-    /* margin-right: 0px; */
 }
 .fhtop{
     width: 230px;
@@ -88,14 +88,12 @@ a{
     top: 200px;
     right: 50px;
     position: fixed;
-    /* text-align: center; */
     display: none;
     z-index: 1;
     line-height: 40px;
     border-radius: 10px 0 0 10px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color:  rgba(143, 142, 141, 0.185);
-    /* background-color:  rgba(171, 118, 64, 0.814);  */
 }
 .gototop{
     width: 40px;
@@ -114,7 +112,6 @@ a{
     height: 400px;
     right: 50px;
     border-radius: 20px 0 0 20px;
-    /* border: 1px solid #f24713; */
     background-color:  rgba(143, 142, 141, 0.185);
 }
 .fonsiz{
@@ -209,7 +206,6 @@ a{
     background: url(../images/arti/rdxq.jpg) 100% 100% no-repeat;
 }
 .zzqfbhjj{
-    /* line-height: 1.5em; */
     width: 150px;
     height: 30px;
     margin-left: 30px;
@@ -395,7 +391,6 @@ a{
     width: 20px;
     height: 45px;
     background-color: white;
-    /* float: left; */
     position: absolute;
     top: 808px;
     left: 105px;
@@ -407,16 +402,11 @@ a{
     left:55%;
     bottom: 3%;
     z-index: 1;
-    /* top: 800px; */
 }
 .mode0{
-    /* top: 800px; */
-    /* text-align: center;
-    line-height: 50px; */
     border-radius: 25px;
     background-color: rgba(252, 252, 252, 0.73);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    /* background: url(../images/log/menu.png)  no-repeat; */
     width: 50px;
     height: 50px;
 }
@@ -435,7 +425,7 @@ a{
 .mode1_ {
     width: 215px;
     height: 170px;
-    /* display: none; */
+    display: none;
     position: absolute;
     background-color: rgba(252, 252, 252, 0.522);
     min-width: 200px;
@@ -458,7 +448,6 @@ a{
 
 .mode1:hover .mode1_ {
     display: block;
-    /* display: inline-block; */
 }
 /*  */
 
@@ -470,7 +459,6 @@ a{
     background: url(../images/log/NGPS.png);
     width: 32px;
     height: 32px;
-    /* display: none; */
 }
 .gps_43{
     position: absolute;
