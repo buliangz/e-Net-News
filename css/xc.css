@@ -285,6 +285,10 @@ a{
     height: 150px;
     margin-left: 470px;
 }
+.txtidjie1{
+    margin-top: -50px;
+    margin-left: 570px;
+}
 .txtdjietxtre{
     float: left;
     width: 110px;
@@ -399,11 +403,18 @@ a{
 }
 .colbak{
     width: 20px;
-    height: 45px;
+    height: 40px;
     background-color: white;
     position: relative;
-    top: 775px;
+    top: 768px;
     left: 105px;
+}
+.abk{
+    font-size: 21px;    
+    color: #f24211;
+}
+.abk{
+   color: #ad441e;
 }
 
 /*  */

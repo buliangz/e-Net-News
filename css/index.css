@@ -234,7 +234,13 @@ a{
 .n5{
     display: none;
 }
-
+.Re_img_txt{
+    width: 600px;
+    height: 15px;
+    /* position: relative; */
+    /* margin-top: 380px; */
+    background-color: aqua;
+}
 
 /* 左区 */
 /* 江山如此多娇 */
