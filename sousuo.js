@@ -15,7 +15,7 @@ input.onkeyup = function(){
     arr.forEach((item)=>{
         let res = item.indexOf(input.value);
         if(res != -1){
-            str += '<p>'+item+'</p>';
+            str +='<p>'+item+'</p>';
             ind=res;
         }
     })
@@ -23,8 +23,9 @@ input.onkeyup = function(){
     if(!input.value || !str){
         show.innerHTML = '<p>暂无结果</p>'
     }else{
-        show.innerHTML = str;
+        show.innerHTML =str;
     }
+    
 }
 
 // 当用户离开input输入框时执行,失去焦点，清除搜索框内容

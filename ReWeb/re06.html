@@ -167,7 +167,7 @@
                         <p><input type="radio" name="D20" value="C">C.《天问》<br/> </p>                    
                         <br>
                         <input type="button" value="计算分数" onclick="funjsda()" style="margin-left: 35px;"> &nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="button" value="点击查看答案" onclick="funda();"><br>
+                        <input type="button" value="点击查看答案" id="no_da" onclick="funda();"><br>
                         <div style="display: none; " id="jieguo">
                             <p>共20题，答对<span id="zhengq"></span>道，未答<span id="weida"></span>道</p>
                         </div>
@@ -224,6 +224,7 @@
         function funjsda(){
             
             document.getElementById('jieguo').style.display='block'
+            document.getElementById('no_da').style.display='none'
             var da1=document.forms[0].D1.value;
             var da2=document.forms[0].D2.value;
             var da3=document.forms[0].D3.value;
